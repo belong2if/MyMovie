@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>영화 검색</title>
     <link rel="stylesheet" href="main_style.css">
+    <script src="https://kit.fontawesome.com/ba4b7489f1.js" crossorigin="anonymous"></script>
 </head>
 
 <body> <!--수정함-->
@@ -12,7 +13,11 @@
         <div class="logo">
           <h1>영화 검색</h1>
         </div>
-        <div class="SL_button_container">  <a href="signup_login.html" target="_blank">
+        <div class="SL_button_container">
+          <a href="favorites.html" class="favorites-link">
+            <i id="heart-icon" class="fa-light fa-heart" style="font-size: 32px; cursor: pointer;"></i>
+          </a>
+          <a href="signup_login.html" target="_blank">
             <img src="login_signup_logo.png" class="SL_button" alt="로그인/회원가입">
           </a>
         </div>
@@ -30,5 +35,6 @@
         </fieldset>
       </div>
 
+<script src="main_SL.js"></script>
 </body>
 </html>

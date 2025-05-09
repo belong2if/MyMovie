@@ -3,7 +3,7 @@ package com.moviesearch.movie.service;
 import com.moviesearch.movie.dto.MovieSearchResponse;
 import com.moviesearch.movie.dto.MovieDetailResponse;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.ResponseEntity; // ✅ 필수!
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
